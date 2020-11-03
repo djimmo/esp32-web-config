@@ -1,0 +1,30 @@
+{
+    "title": "Paul's ESP Web Config",
+    "parameters": [
+        {
+            "type": "text",
+            "name": "textField",
+            "value": "hello"
+        },
+        {
+            "type": "dropdown",
+            "options": [
+                {
+                    "key": "Enabled",
+                    "value": "true"
+                },
+                {
+                    "key": "Disabled",
+                    "value": "false"
+                }
+            ],
+            "name": "LEDON",
+            "value": "false"
+        },
+        {
+            "type": "number",
+            "name": "numberField",
+            "value": "420"
+        }
+    ]
+}
